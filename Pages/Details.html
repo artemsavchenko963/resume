@@ -28,6 +28,7 @@
 
     table {
         margin-bottom: 300px;
+        border: 3px solid black;
     }
 
 
@@ -48,8 +49,9 @@
 </style>
 
 <body>
-    <div class="list">
-        <h1>My favorite books:</h1>
+    <h1>My favorite books:</h1>
+    <button id="button1">hover</button>
+    <div id="list" class="list" style="display: none;">
         <ol>
             <li>"The Simple Path to Wealth" by JL Collins</li>
             <li>“Python Crash Course” by Eric Matthes</li>
@@ -57,9 +59,11 @@
         </ol>
     </div>
 
-    <div class="table">
-        <h1>My favorite games:</h1>
-        <table border="1px" style="border: 2px solid black;">
+    <h1>My favorite games:</h1>
+    <button id="button">Show table</button>
+    <div id="tableContainer" class="table" style="display: none;">
+
+        <table border="1px">
             <tr>
                 <td></td>
                 <td>Name</td>
@@ -88,6 +92,7 @@
     <div class="Back">
         <a href="../Index.html">Back to main page</a>
     </div>
+    <script src="../js/table.js"></script>
 </body>
 
 </html>
