@@ -117,10 +117,25 @@ h2 {
 }
 
 .TheButton {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(158, 154, 154);
     min-width: 150px;
     min-height: 30px;
     align-content: center;
     justify-self: center;
     text-align: center;
+}
+
+button {
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.TheButton1 {
+    background-color: rgb(245, 165, 165);
+    border: 2px solid black;
+    padding-inline: 30px;
+    padding-block: 2px;
 }

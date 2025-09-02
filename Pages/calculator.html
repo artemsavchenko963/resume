@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="../Assets/calculator.css">
+</head>
+
+<body>
+    <div class="CCC">Calculator</div>
+    <div class="Calc">
+        <input class="inp" type="text" id="display" disabled>
+        <br>
+        <button class="ButtonNum" onclick="add('7')">7</button>
+        <button class="ButtonNum" onclick="add('8')">8</button>
+        <button class="ButtonNum" onclick="add('9')">9</button>
+        <button class="ButtonNum2" onclick="add('/')">/</button>
+        <br>
+        <button class="ButtonNum" onclick="add('4')">4</button>
+        <button class="ButtonNum" onclick="add('5')">5</button>
+        <button class="ButtonNum" onclick="add('6')">6</button>
+        <button class="ButtonNum2" onclick="add('*')">*</button>
+        <br>
+        <button class="ButtonNum" onclick="add('1')">1</button>
+        <button class="ButtonNum" onclick="add('2')">2</button>
+        <button class="ButtonNum" onclick="add('3')">3</button>
+        <button class="ButtonNum2" onclick="add('-')">-</button>
+        <br>
+        <button class="ButtonNum1" onclick="clearDisplay()">C</button>
+        <button class="ButtonNum" onclick="add('0')">0</button>
+
+        <button class="ButtonNum1" onclick="calculate()">=</button>
+        <button class="ButtonNum2" onclick="add('+')">+</button>
+</body>
+</div>
+
+<a href="../Index.html">Back</a>
+
+<script src="../js/calculator.js"></script>
+
+</html>
